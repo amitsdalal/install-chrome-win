@@ -1,6 +1,6 @@
 This Script is written for Installing the Chrome browser using PowerShell as the new Windows OS ask for a lot to download the Chrome using Internet Explorer and Duh :P who likes IE at this day.
 
-Goto PowerShell and put this three simple Line one by one and wallah you'll have a brand new Chrome Broswer installed.
+Goto PowerShell and put these three simple Lines one by one and wallah you'll have a brand new Chrome Broswer installed.
 
 Please raise issue if you're seening any bug.
 
