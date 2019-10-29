@@ -13,3 +13,7 @@ $Script = Invoke-WebRequest 'https://raw.githubusercontent.com/amitsdalal/instal
 $ScriptBlock = [Scriptblock]::Create($Script.Content)
 
 Invoke-Command -ScriptBlock $ScriptBlock
+
+
+![POC](https://github.com/amitsdalal/install-chrome-win/raw/master/Screenshot%20from%202019-10-29%2019-17-21.png)
+
