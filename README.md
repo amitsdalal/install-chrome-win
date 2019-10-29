@@ -1,19 +1,15 @@
-This Script is written for Installing the Chrome browser using PowerShell as the new Windows OS ask for a lot to download the Chrome using Internet Explorer and Duh :P who likes IE at this day.
+Welcome to the install-chrome-win wiki!
 
-Goto PowerShell and put these three simple Lines one by one and wallah you'll have a brand new Chrome Broswer installed.
+This Script is written for Installing the Chrome browser using PowerShell as the new Windows OS asks for a lot to download Chrome using Internet Explorer and Duh :P who likes IE at this day.
 
-Please raise issue if you're seening any bug.
+Goto PowerShell and put these three simple Lines one by one and wallah you'll have a brand new Chrome Browser installed.
+
+Please raise the issue if you're seeing any bug.
 
 This script is free to use/copy/modify and no copyright is applied the same.
-
-
-
 
 $Script = Invoke-WebRequest 'https://raw.githubusercontent.com/amitsdalal/install-chrome-win/master/chrome.ps1'
 
 $ScriptBlock = [Scriptblock]::Create($Script.Content)
 
 Invoke-Command -ScriptBlock $ScriptBlock
-
-
-
